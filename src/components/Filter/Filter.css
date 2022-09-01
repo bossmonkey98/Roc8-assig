@@ -1,0 +1,22 @@
+.filter {
+  padding: 1rem;
+  flex: 1;
+  width: 100%;
+  min-width: fit-content;
+  background: #ddd;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul > li {
+  margin: 5px;
+}
+
+ul > li > span {
+  margin-left: 10px;
+}
